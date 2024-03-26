@@ -1,0 +1,183 @@
+* {
+    margin: 0px;
+}
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue','Poppins' sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background: #fce3fe;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centre le contenu verticalement */
+    align-items: center; /* Centre le contenu horizontalement */
+}
+
+.title-contact {
+    font-size: 2.2rem;
+    color: #041c33;
+    margin: 1rem;
+    text-align: center;
+    box-shadow: 0 0 6px 0 hsla(1, 88%, 10%, 0.2);
+    padding: 30px;
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+
+.form-group .message-contact input{
+    height: 40px;
+    width: 100%;
+    padding-left: 20px;
+    border:1px solid #3c9c99;
+    outline: none;
+    color:#5c5c5c ;
+    font-size: 13px;
+ }
+ 
+.divider-contact {
+    max-width: 100%;
+    border: 1px solid #680808;
+}
+
+
+
+.col-md-8 {
+    
+    display: flex;
+    
+    flex-direction: column;
+    gap: 15px;
+    margin-top:5px;
+}
+
+.col-md-8  input{
+    height: 40px;
+    width: 100%;
+    padding-left: 20px;
+    border:1px solid #3c9c99;
+    outline: none;
+    color:#5c5c5c ;
+    font-size: 13px;
+ }
+ 
+.contact-agree{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color:#5c5c5c;
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 5px;
+  }
+  
+  .contact-agree p {
+    font-size: 12px;
+  }
+.form-group .message-contact{
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+    /* max-width: 100%; */
+    margin-top:30px;
+}
+.contact-container {
+    width: 580px;
+    height: 600px;
+    background:white;
+    margin: auto;
+    padding: 17px 60px;
+    padding-bottom: 53px;
+ }
+ 
+
+
+.message-contact {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.text-link {
+    margin-left: 2.2rem;
+    margin-top: 0.5rem;
+    width: 100%;
+}
+
+.form-group-submit {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-left: 2rem;
+    width: 100%;
+}
+
+.link-politic-contact {
+    color: #5397b0;
+}
+
+.primary-btn {
+    width: 100%;
+    height: 22px;
+    color: white;
+    background: #ff4141;
+    border: none;
+    margin: 0.5% auto;
+    font-weight: 500;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.primary-btn:hover {
+    background-color: #852555;
+    cursor: pointer;
+}
+
+label {
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+div.checkbox {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    gap: 0.3rem;
+    max-width: 90%;
+}
+
+#message {
+    max-width: 150%;
+}
+
+@media screen and (max-width: 570px) {
+    .title-contact {
+        font-size: 19px;
+    }
+
+    .contact-container {
+        width: 226px;
+        height: 300px;
+        padding-top: 17px ;
+        padding-bottom: 70px;
+      }
+    .container {
+       
+        height : 65vh;
+    }
+
+    .primary-btn button {
+        height: 23px;
+        font-size: 15px;
+    }
+}

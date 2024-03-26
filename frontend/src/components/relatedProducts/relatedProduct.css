@@ -1,0 +1,44 @@
+.relatedProducts{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 100px;
+}
+
+.relatedProducts h1 {
+  color: #171717; 
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.relatedProducts hr {
+ width: 200px;
+ height: 6px;
+ border-radius: 10px;
+ background: #252525;
+} 
+
+.relatedProduct-item{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+@media screen and (max-width: 1280px){
+  .relatedProducts{
+    margin-top: 100px;
+  }
+
+    .relatedProducts h1 {
+    font-size: 34px;
+    }
+    }
+
+
+@media screen and (max-width: 1280px){
+  
+}

@@ -1,0 +1,283 @@
+.hero{
+  height: 100vh;
+  background: linear-gradient(180deg, #fde1fd, #e1ffea22 60%);
+  display: flex;
+  align-items:center;
+  justify-content: space-around;
+}
+
+.hero-left{
+  flex: 1;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  padding-left: 180px;
+  line-height: 1.1;
+}
+
+.hero-left h2{
+  color: #090909;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.hero-left p {
+  color: #171717;
+  font-size: 70px;
+  font-weight: 700;
+}
+
+
+.hero-hand-icon{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  
+}
+
+@keyframes moveHandIcon {
+  
+  0% {
+      transform: translateY(0);/* Position initiale */
+    }
+    
+    25% {
+      transform: translateX(10px); /* Déplacement vers la droite */
+    }
+    50% {
+    
+   
+      transform: translateX(-10px); /* Déplacement vers la gauche */
+        }
+        
+        75% {
+    
+   
+          transform: translateX(10px); /* Déplacement vers la droite */
+            }
+  
+   
+            100% {
+    
+   
+              transform: translateX(0); /* Retour à la position initiale */
+                }
+  }
+  
+  
+  
+.hero-hand-icon img{
+  width: 105px;
+  animation: moveHandIcon 1s infinite; /* Animation de 1 seconde, répétée indéfiniment */
+
+}
+@keyframes changeColor {
+  0% {
+    color: red; /* Couleur initiale */
+  }
+  50% {
+    color: blue; /* Nouvelle couleur */
+  }
+  100% {
+    color: red; /* Retour à la couleur initiale */
+  }
+}
+
+.new-text {
+  animation: changeColor 3s infinite; /* Animation de 3 secondes, répétée indéfiniment */
+}
+
+
+.hero-latest-btn{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  gap: 15px;
+  width: 310px;
+  height: 70px;
+  border-radius: 30px;
+  margin-top: 30px;
+  background: #ff4141;
+  color:white;
+  font-size: 22px;
+  font-weight: 500;
+
+}
+
+.hero-right{
+   flex: 1 1;
+   display:flex;
+   align-items:center;
+   justify-content: center;
+   margin-bottom: 200px;
+   
+
+}
+
+.hero-right img {
+  
+  object-fit: contain;
+  overflow: hidden;
+
+ 
+}
+
+
+@media screen and (max-width: 1200px){
+
+  .hero-left p{
+    font-size: 54px;
+  }
+
+    .hero-latest-btn{
+    width: 250px;
+    height: 60px
+    }
+
+  .hero-left{
+    padding-left: 70px
+  }
+
+
+    .hero-hand-icon img {
+      width: 46px;
+    }
+}
+
+@media screen and (max-width: 918px){
+
+.hero-left h2 {
+  font-size: 20px;
+}
+
+.hero-left p {
+  font-size: 44px;
+}
+
+.hero-latest-btn{
+  font-size: 15px;
+  
+}
+
+.hero-latest-btn {
+  width: 182px;
+  height: 59px;
+
+}
+
+.hero-hand-icon img {
+  width: 42px;
+}
+
+ .hero-left {
+   padding-left: 50px
+ }
+}
+
+
+@media screen and (max-width: 678px){
+.hero-left h2 {
+    font-size: 15px;
+  }
+
+  .hero-left p {
+    font-size: 32px;
+  }
+
+  .hero-latest-btn {
+    font-size: 15px;
+
+  }
+
+  .hero-latest-btn {
+    width: 134px;
+    height: 54px;
+    font-size: 10px;
+
+  }
+
+    .hero-hand-icon img {
+      width: 29px;
+    }
+
+         .hero-left {
+           padding-left: 30px
+         }
+}
+
+@media screen and (max-width: 527px){
+
+  .hero-left h2 {
+      font-size: 15px;
+    }
+  
+    .hero-left p {
+      font-size: 32px;
+    }
+  
+    .hero-latest-btn {
+      font-size: 15px;
+  
+    }
+  
+    .hero-latest-btn {
+      width: 134px;
+      height: 54px;
+      font-size: 10px;
+  
+    }
+  
+    .hero-hand-icon img {
+      width: 29px;
+    }
+
+
+    .hero-left {
+    padding-left: 20px
+   }
+
+}
+ 
+
+@media screen and (max-width: 474px) {
+
+  .hero-left h2 {
+    font-size: 12px;
+  }
+
+  .hero-left p {
+    font-size: 25px;
+  }
+
+  .hero-latest-btn {
+    font-size: 15px;
+
+  }
+
+  .hero-latest-btn {
+    width: 106px;
+    height: 34px;
+    font-size: 7px;
+  
+
+  }
+
+  .hero-hand-icon img {
+    width: 29px;
+  }
+
+
+  .hero-left {
+    padding-left: 20px
+  }
+
+    .hero-right{
+      margin-bottom: 154px;
+    }
+
+ .hero{
+  height: 65vh;
+ }
+
+}

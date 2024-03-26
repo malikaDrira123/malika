@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1cfc0b18.css",
+    "main.js": "/static/js/main.e47f1bc3.js",
+    "static/js/787.9e9f4ffd.chunk.js": "/static/js/787.9e9f4ffd.chunk.js",
+    "static/media/boxicons.svg": "/static/media/boxicons.17f6cb4eef77f07f2caa.svg",
+    "static/media/boxicons.eot": "/static/media/boxicons.dfc882ec9689f820c7c9.eot",
+    "static/media/boxicons.woff": "/static/media/boxicons.1a7e2e2bf3a855e674d4.woff",
+    "static/media/boxicons.ttf": "/static/media/boxicons.22afc8ee5cfc540cddff.ttf",
+    "static/media/sport_banner.png": "/static/media/sport_banner.341d0bb240fb3de456e1.png",
+    "static/media/hero_image.png": "/static/media/hero_image.f0f7df4db4f707249b60.png",
+    "static/media/exclusive_image.png": "/static/media/exclusive_image.e8118f2149d9cb916980.png",
+    "static/media/product_4.png": "/static/media/product_4.ea0420ca9cec08d6df05.png",
+    "static/media/product_2.png": "/static/media/product_2.d4e74f367160ec10fb34.png",
+    "static/media/product_1.png": "/static/media/product_1.5a757396ee7ff5dd91c1.png",
+    "static/media/product_3.png": "/static/media/product_3.be48863df18b272b8f59.png",
+    "static/media/boxicons.woff2": "/static/media/boxicons.60f603cccbdff82a523c.woff2",
+    "static/media/tech_banner.png": "/static/media/tech_banner.5c5b2c6a93370335755d.png",
+    "static/media/beauty_banner.png": "/static/media/beauty_banner.949bd364fac1a90f71db.png",
+    "static/media/hand_icon.png": "/static/media/hand_icon.9c7487cecb600f30901b.png",
+    "static/media/logo.png": "/static/media/logo.3fdeddc45aead610f157.png",
+    "static/media/down-arrow.png": "/static/media/down-arrow.a396953b59e2e24ad0df.png",
+    "static/media/logo.svg": "/static/media/logo.dda2f44262639a5b4dd2ebc588be0626.svg",
+    "index.html": "/index.html",
+    "static/media/Product_list_icon.svg": "/static/media/Product_list_icon.13f69e073cb2a92f9c09abb3c4ed37c9.svg",
+    "main.1cfc0b18.css.map": "/static/css/main.1cfc0b18.css.map",
+    "main.e47f1bc3.js.map": "/static/js/main.e47f1bc3.js.map",
+    "787.9e9f4ffd.chunk.js.map": "/static/js/787.9e9f4ffd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1cfc0b18.css",
+    "static/js/main.e47f1bc3.js"
+  ]
+}
